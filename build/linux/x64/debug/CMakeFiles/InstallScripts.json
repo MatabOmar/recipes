@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/mustafa/Desktop/school/recipes/build/linux/x64/debug/cmake_install.cmake",
+		"/home/mustafa/Desktop/school/recipes/build/linux/x64/debug/flutter/cmake_install.cmake",
+		"/home/mustafa/Desktop/school/recipes/build/linux/x64/debug/runner/cmake_install.cmake",
+		"/home/mustafa/Desktop/school/recipes/build/linux/x64/debug/plugins/file_selector_linux/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

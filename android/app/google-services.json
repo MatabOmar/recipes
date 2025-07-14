@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "290261785269",
+    "project_id": "test-9f11b",
+    "storage_bucket": "test-9f11b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290261785269:android:9f4376743567cf7305fcfc",
+        "android_client_info": {
+          "package_name": "com.example.inventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThfP9B85mLui8-tS9W-ujdpdR8naoV_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290261785269:android:28edddd9fa859d6b05fcfc",
+        "android_client_info": {
+          "package_name": "com.example.recipe_sharing_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThfP9B85mLui8-tS9W-ujdpdR8naoV_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290261785269:android:8ef8c593f830911c05fcfc",
+        "android_client_info": {
+          "package_name": "com.example.testing_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThfP9B85mLui8-tS9W-ujdpdR8naoV_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

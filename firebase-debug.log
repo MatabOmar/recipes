@@ -1,0 +1,147 @@
+[debug] [2025-07-11T17:09:12.237Z] ----------------------------------------------------------------------
+[debug] [2025-07-11T17:09:12.240Z] Command:       /usr/bin/node /usr/bin/firebase apps:sdkconfig web 1:290261785269:web:3bf4de696fb0d6cc05fcfc --json
+[debug] [2025-07-11T17:09:12.241Z] CLI Version:   14.8.0
+[debug] [2025-07-11T17:09:12.241Z] Platform:      linux
+[debug] [2025-07-11T17:09:12.241Z] Node Version:  v24.2.0
+[debug] [2025-07-11T17:09:12.241Z] Time:          Fri Jul 11 2025 13:09:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-07-11T17:09:12.242Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-11T17:09:12.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-11T17:09:12.250Z] > authorizing via signed-in user (learnmy0999@gmail.com)
+[debug] [2025-07-11T17:09:12.255Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:12.255Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:12.257Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:290261785269:web:3bf4de696fb0d6cc05fcfc/config [none]
+[debug] [2025-07-11T17:09:18.397Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:290261785269:web:3bf4de696fb0d6cc05fcfc/config 200
+[debug] [2025-07-11T17:09:18.397Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:290261785269:web:3bf4de696fb0d6cc05fcfc/config {"projectId":"test-9f11b","appId":"1:290261785269:web:3bf4de696fb0d6cc05fcfc","storageBucket":"test-9f11b.firebasestorage.app","apiKey":"AIzaSyDTa6rktKVqLF_EpTpp8XIRc6AseXDeo_A","authDomain":"test-9f11b.firebaseapp.com","messagingSenderId":"290261785269","measurementId":"G-75VR2LHYF1"}
+[info] {
+  "projectId": "test-9f11b",
+  "appId": "1:290261785269:web:3bf4de696fb0d6cc05fcfc",
+  "storageBucket": "test-9f11b.firebasestorage.app",
+  "apiKey": "AIzaSyDTa6rktKVqLF_EpTpp8XIRc6AseXDeo_A",
+  "authDomain": "test-9f11b.firebaseapp.com",
+  "messagingSenderId": "290261785269",
+  "measurementId": "G-75VR2LHYF1"
+}
+[debug] [2025-07-11T17:09:24.236Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/lib/node_modules/firebase-tools/lib/utils.js:267:49)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-07-11T17:09:30.665Z] ----------------------------------------------------------------------
+[debug] [2025-07-11T17:09:30.668Z] Command:       /usr/bin/node /usr/bin/firebase apps:list web --json --project=test-9f11b
+[debug] [2025-07-11T17:09:30.669Z] CLI Version:   14.8.0
+[debug] [2025-07-11T17:09:30.669Z] Platform:      linux
+[debug] [2025-07-11T17:09:30.669Z] Node Version:  v24.2.0
+[debug] [2025-07-11T17:09:30.670Z] Time:          Fri Jul 11 2025 13:09:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-07-11T17:09:30.670Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-11T17:09:30.678Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-11T17:09:30.679Z] > authorizing via signed-in user (learnmy0999@gmail.com)
+[debug] [2025-07-11T17:09:30.684Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:30.684Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:30.686Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-9f11b/webApps pageSize=100
+[debug] [2025-07-11T17:09:36.626Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-9f11b/webApps 200
+[debug] [2025-07-11T17:09:36.627Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-9f11b/webApps {"apps":[{"name":"projects/test-9f11b/webApps/1:290261785269:web:3bf4de696fb0d6cc05fcfc","appId":"1:290261785269:web:3bf4de696fb0d6cc05fcfc","displayName":"testing_1 (windows)","projectId":"test-9f11b","webId":"YWMyNjBmYTYtZDM2OS00ZGI1LThmZTgtZjBjNDBkZWM4MzM0","apiKeyId":"c8a7fadd-af2c-4af6-bf46-21bcb263998a","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_9ebf9dce-49d6-4399-8416-800b4783c4f4"},{"name":"projects/test-9f11b/webApps/1:290261785269:web:5b998c830da286e305fcfc","appId":"1:290261785269:web:5b998c830da286e305fcfc","displayName":"inventory (windows)","projectId":"test-9f11b","webId":"NDYyNmM0ZWItNWZhYS00NDI5LThhYjUtYzY2N2EzNmIzZDcy","apiKeyId":"c8a7fadd-af2c-4af6-bf46-21bcb263998a","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_bf334154-15a0-492e-a55a-945e3050f2bd"},{"name":"projects/test-9f11b/webApps/1:290261785269:web:9da2a1a3dcaab42e05fcfc","appId":"1:290261785269:web:9da2a1a3dcaab42e05fcfc","displayName":"testing_1 (web)","projectId":"test-9f11b","webId":"MzliNTM0YTctZWZmZC00MmJiLWE1MWItMjE4MjM5Y2E4YzAw","apiKeyId":"c8a7fadd-af2c-4af6-bf46-21bcb263998a","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_26728b0c-1bd6-46ae-8daa-e79691303c31"}]}
+[info] ┌─────────────────────┬───────────────────────────────────────────┬──────────┐
+│ App Display Name    │ App ID                                    │ Platform │
+├─────────────────────┼───────────────────────────────────────────┼──────────┤
+│ testing_1 (windows) │ 1:290261785269:web:3bf4de696fb0d6cc05fcfc │ WEB      │
+├─────────────────────┼───────────────────────────────────────────┼──────────┤
+│ inventory (windows) │ 1:290261785269:web:5b998c830da286e305fcfc │ WEB      │
+├─────────────────────┼───────────────────────────────────────────┼──────────┤
+│ testing_1 (web)     │ 1:290261785269:web:9da2a1a3dcaab42e05fcfc │ WEB      │
+└─────────────────────┴───────────────────────────────────────────┴──────────┘
+[info] 
+[info] 3 app(s) total.
+[debug] [2025-07-11T17:09:46.663Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/lib/node_modules/firebase-tools/lib/utils.js:267:49)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-07-11T17:09:49.125Z] ----------------------------------------------------------------------
+[debug] [2025-07-11T17:09:49.128Z] Command:       /usr/bin/node /usr/bin/firebase apps:create web recipe_sharing_app (windows) --json --project=test-9f11b
+[debug] [2025-07-11T17:09:49.129Z] CLI Version:   14.8.0
+[debug] [2025-07-11T17:09:49.129Z] Platform:      linux
+[debug] [2025-07-11T17:09:49.130Z] Node Version:  v24.2.0
+[debug] [2025-07-11T17:09:49.130Z] Time:          Fri Jul 11 2025 13:09:49 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-07-11T17:09:49.130Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-11T17:09:49.137Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-11T17:09:49.138Z] > authorizing via signed-in user (learnmy0999@gmail.com)
+[info] Create your WEB app in project test-9f11b:
+[debug] [2025-07-11T17:09:49.145Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:49.145Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:49.147Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/test-9f11b/webApps [none]
+[debug] [2025-07-11T17:09:49.147Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/test-9f11b/webApps {"displayName":"recipe_sharing_app (windows)"}
+[debug] [2025-07-11T17:09:55.870Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/test-9f11b/webApps 200
+[debug] [2025-07-11T17:09:55.870Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/test-9f11b/webApps {"name":"operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5"}
+[debug] [2025-07-11T17:09:55.872Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:55.873Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:55.873Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 [none]
+[debug] [2025-07-11T17:09:56.371Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 200
+[debug] [2025-07-11T17:09:56.371Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 {"name":"operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5"}
+[debug] [2025-07-11T17:09:56.872Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-07-11T17:09:56.872Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:56.873Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:56.873Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 [none]
+[debug] [2025-07-11T17:09:57.397Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 200
+[debug] [2025-07-11T17:09:57.397Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 {"name":"operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5"}
+[debug] [2025-07-11T17:09:58.397Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-07-11T17:09:58.398Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:58.398Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:09:58.399Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 [none]
+[debug] [2025-07-11T17:09:58.829Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 200
+[debug] [2025-07-11T17:09:58.829Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 {"name":"operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5"}
+[debug] [2025-07-11T17:10:00.831Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-07-11T17:10:00.831Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:10:00.832Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:10:00.832Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 [none]
+[debug] [2025-07-11T17:10:01.286Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 200
+[debug] [2025-07-11T17:10:01.287Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5 {"name":"operations/workflows/YzY5YTYzNTctNjIyYS00MzBjLWFhN2MtNzYyYjY4Yjc1Y2U5","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.WebApp","name":"projects/test-9f11b/webApps/1:290261785269:web:bab772e093329bf805fcfc","appId":"1:290261785269:web:bab772e093329bf805fcfc","displayName":"recipe_sharing_app (windows)","projectId":"test-9f11b","webId":"ZDJlNWFmMmEtNGRmNy00NGUwLThkNDktODQ1MjQ2MTcwZmQ3","apiKeyId":"c8a7fadd-af2c-4af6-bf46-21bcb263998a","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_ab18abc8-9aab-4c26-8391-a794e9177671"}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase WEB App is ready! 🎉🎉🎉
+[info] 
+[info] App information:
+[info]   - App ID: 1:290261785269:web:bab772e093329bf805fcfc
+[info]   - Display name: recipe_sharing_app (windows)
+[info] 
+[info] You can run this command to print out your new app's Google Services config:
+[info]   firebase apps:sdkconfig WEB 1:290261785269:web:bab772e093329bf805fcfc
+[debug] [2025-07-11T17:10:11.304Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/lib/node_modules/firebase-tools/lib/utils.js:267:49)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-07-11T17:10:13.656Z] ----------------------------------------------------------------------
+[debug] [2025-07-11T17:10:13.661Z] Command:       /usr/bin/node /usr/bin/firebase apps:sdkconfig web 1:290261785269:web:bab772e093329bf805fcfc --json
+[debug] [2025-07-11T17:10:13.662Z] CLI Version:   14.8.0
+[debug] [2025-07-11T17:10:13.662Z] Platform:      linux
+[debug] [2025-07-11T17:10:13.663Z] Node Version:  v24.2.0
+[debug] [2025-07-11T17:10:13.663Z] Time:          Fri Jul 11 2025 13:10:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-07-11T17:10:13.663Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-11T17:10:13.668Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-11T17:10:13.669Z] > authorizing via signed-in user (learnmy0999@gmail.com)
+[debug] [2025-07-11T17:10:13.676Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:10:13.676Z] Checked if tokens are valid: true, expires at: 1752257185424
+[debug] [2025-07-11T17:10:13.679Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:290261785269:web:bab772e093329bf805fcfc/config [none]
+[debug] [2025-07-11T17:10:20.029Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:290261785269:web:bab772e093329bf805fcfc/config 200
+[debug] [2025-07-11T17:10:20.030Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:290261785269:web:bab772e093329bf805fcfc/config {"projectId":"test-9f11b","appId":"1:290261785269:web:bab772e093329bf805fcfc","storageBucket":"test-9f11b.firebasestorage.app","apiKey":"AIzaSyDTa6rktKVqLF_EpTpp8XIRc6AseXDeo_A","authDomain":"test-9f11b.firebaseapp.com","messagingSenderId":"290261785269","measurementId":"G-CTPSP4Y48G"}
+[info] {
+  "projectId": "test-9f11b",
+  "appId": "1:290261785269:web:bab772e093329bf805fcfc",
+  "storageBucket": "test-9f11b.firebasestorage.app",
+  "apiKey": "AIzaSyDTa6rktKVqLF_EpTpp8XIRc6AseXDeo_A",
+  "authDomain": "test-9f11b.firebaseapp.com",
+  "messagingSenderId": "290261785269",
+  "measurementId": "G-CTPSP4Y48G"
+}
+[debug] [2025-07-11T17:10:30.046Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/lib/node_modules/firebase-tools/lib/utils.js:267:49)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7)
+[error] 
+[error] Error: An unexpected error has occurred.
